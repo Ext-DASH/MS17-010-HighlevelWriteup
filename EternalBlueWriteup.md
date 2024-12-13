@@ -1,6 +1,6 @@
 # MS17-010-HighlevelWriteup
 A high level writeup of the Eternal Blue (MS17-010) exploit using code from AutoBlue
-
+https://github.com/3ndG4me/AutoBlue-MS17-010
 # Eternal Blue writeup
 
 ###### This is a very high level writeup on how AutoBlue works, written to help me understand how EternalBlue works at a high level.
@@ -192,4 +192,5 @@ A high level writeup of the Eternal Blue (MS17-010) exploit using code from Auto
 - This exploit works across multiple systems
     - The SMB protocol uses slightly different packets and addresses, so implementing this accross different versions of windows is hard work
 - Another topic not discussed is persistance. We can integrate "Double Pulsar" post exploit to keep our access to the machine.
+- Credit to: https://github.com/3ndG4me/AutoBlue-MS17-010
 
